@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    name: test  #数据库名
+    url: jdbc:oracle:thin:@localhost:1521:orcl #url
+    username: ytf  #用户名
+    password: 123  #密码
+    driver-class-name: oracle.jdbc.driver.OracleDriver  #数据库链接驱动
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml  #配置映射文件
+  type-aliases-package: com.example.demo.domain #配置实体类
