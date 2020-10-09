@@ -22,4 +22,8 @@ class DemoApplicationTests {
         System.out.println(userBean.getId());
     }
 
+    public void  Test(){
+        System.out.println("yangtingfeng");
+    }
+
 }
